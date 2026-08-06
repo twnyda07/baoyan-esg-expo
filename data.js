@@ -1,6 +1,7 @@
 /* 2026 亞太永續博覽會・寶嚴禪寺展區看板文案
-   資料來源：《看板文案_中英定稿_2》＋《永續展看板文案_中英定稿_印刷版 v2》
-   全部文字逐字取自定稿，未改寫。解說要點（docent）為依看板文字整理之導覽提示。 */
+   來源：《永續展看板文案_中英定稿 0806》（2026-08-06 版，最新）
+   文字與圖片皆取自該檔；校訂註記不收入。
+   「解說要點」為依看板文字整理之導覽提示，未加入看板以外的事實。 */
 
 const DATA = {
   meta: {
@@ -9,7 +10,8 @@ const DATA = {
     titleZh: '展場看板文案',
     titleEn: 'Exhibition Panel Copy',
     orgZh: '財團法人圓道文教基金會・寶嚴禪寺',
-    orgEn: 'Yuandao Culture and Education Foundation · Bao Yan Chan Monastery'
+    orgEn: 'Yuandao Culture and Education Foundation · Bao Yan Chan Monastery',
+    version: '0806'
   },
 
   zones: [
@@ -39,13 +41,13 @@ const DATA = {
             },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image1', zh: '心的永續力架構圖', en: 'The Sustaining Power of the Mind — conceptual framework' }
+                { f: 'pg02_01', zh: '心的永續力架構圖', en: 'The Sustaining Power of the Mind — conceptual framework' }
               ]
             }
           ],
           docent: {
             hook: {
-              zh: '「全世界都在談 ESG。三千年前，佛陀已經講過同一件事——只是他用四個字：嚴淨國土，成熟有情。」',
+              zh: '「全世界都在談 ESG。三千年前，佛陀已經講過同一件事——只是他用八個字：嚴淨國土，成熟有情。」',
               en: '“The whole world is talking about ESG. Three thousand years ago the Buddha said the same thing in eight words: purify the land, mature all beings.”'
             },
             points: [
@@ -71,7 +73,7 @@ const DATA = {
           id: 'e1', kindZh: '大看板', kindEn: 'Main Panel',
           titleZh: 'E｜環境保護', titleEn: 'E | Environmental Protection',
           blocks: [
-            { t: 'couplet', zh: '隨其心淨　則國土淨', srcZh: '——《維摩經》', en: 'When the Mind Is Pure, the Land Is Pure', srcEn: '— The Vimalakīrti Sūtra' },
+            { t: 'couplet', zh: '隨其心淨　則國土淨', srcZh: '——《佛說維摩詰經》', en: 'When the Mind Is Pure, the Land Is Pure', srcEn: '— The Vimalakīrti Sūtra' },
             {
               t: 'sutra',
               zh: '「自皈依佛，當願眾生，體解大道，發無上心。」',
@@ -79,12 +81,12 @@ const DATA = {
             },
             {
               t: 'poem', titleZh: '台東', titleEn: 'TAITUNG',
-              zh: ['藍天、湛海、乾淨的空氣、清洌的水質，', '曾經是台灣的偏鄉，世界的邊境。', '如今，', '全球環保意識及靈性復興思潮再興，', '台東純淨無染的天與地，', '成為追求族與禪修者的首選地。', '2021 年因緣成熟，', '台東蘊藏藍寶石的都蘭山腳下平原，', '規劃為寶嚴禪寺神聖空間與心靈聚落，', '這片淨土是集眾人之大願，', '共同發心打造的一方讓遊子歸鄉、', '讓心安住的 ESG 創生園區。'],
-              en: ['Blue sky. Clear sea. Clean air. Pure water.', 'Once the far edge of Taiwan — and of the world.', 'Today, as environmental conscience and a spiritual', 'awakening rise together, this untouched land', 'has become the first choice of those who chase the blue —', 'and of those who come to sit still.', 'In 2021, the conditions ripened.', 'On the plain below Mount Dulan, where sapphire', 'sleeps in the earth, a sacred space and spiritual', 'settlement began to take form.', 'Raised by the great vow of many hands,', 'this pure land is an ESG regeneration park —', 'where the wanderer comes home,', 'and the heart comes to rest.']
+              zh: ['藍天、湛海、乾淨的空氣、清洌的水質，', '曾經是台灣的偏鄉，世界的邊境。', '如今，', '全球環保意識及靈性復興思潮再興，', '台東純淨無染的天與地，', '成為追藍族與禪修者的首選地。', '', '2021 年因緣成熟，', '台東蘊藏藍寶石的都蘭山腳下平原，', '規劃為寶嚴禪寺神聖空間與心靈聚落，', '這片淨土是集眾人之大願，', '共同發心打造的一方讓遊子歸鄉、', '讓心安住的 ESG 創生園區。'],
+              en: ['Blue sky. Clear sea. Clean air. Pure water.', 'Once the far edge of Taiwan — and of the world.', 'Today, as environmental conscience and a spiritual', 'awakening rise together, this untouched land', 'has become the first choice of those who chase the blue —', 'and of those who come to sit still.', '', 'In 2021, the conditions ripened.', 'On the plain below Mount Dulan, where sapphire', 'sleeps in the earth, a sacred space and spiritual', 'settlement began to take form.', 'Raised by the great vow of many hands,', 'this pure land is an ESG regeneration park —', 'where the wanderer comes home,', 'and the heart comes to rest.']
             },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image2', zh: '寶嚴禪寺基地空拍圖', en: 'Aerial view of the Bao Yan Chan Monastery site' }
+                { f: 'pg04_01', zh: '寶嚴禪寺基地空拍圖', en: 'Aerial view of the Bao Yan Chan Monastery site' }
               ]
             },
             {
@@ -105,8 +107,8 @@ const DATA = {
             },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image3', zh: 'WELL 十大概念', en: 'The Ten WELL Concepts' },
-                { f: 'image4', zh: 'WELL 對人體健康的增益──世界第一部根據人體健康制定的環境設計標準', en: 'How WELL benefits human health — the world’s first design standard built around human health' }
+                { f: 'pg05_01', zh: 'WELL 十大概念', en: 'The Ten WELL Concepts' },
+                { f: 'pg05_02', zh: 'WELL 對人體健康的增益──世界第一部根據人體健康制定的環境設計標準', en: 'How WELL benefits human health — the world’s first design standard built around human health' }
               ]
             },
             {
@@ -120,7 +122,7 @@ const DATA = {
           ],
           docent: {
             hook: {
-              zh: '「《維摩經》講：隨其心淨，則國土淨。這不是比喻——我們真的照這句話蓋了一座寺院。」',
+              zh: '「《佛說維摩詰經》講：隨其心淨，則國土淨。這不是比喻——我們真的照這句話蓋了一座寺院。」',
               en: '“The Vimalakīrti Sūtra says: when the mind is pure, the land is pure. That is not a metaphor — we are actually building a monastery on that line.”'
             },
             points: [
@@ -184,12 +186,10 @@ const DATA = {
               en: 'The “Little Vegan Baker” class introduces children to delicious, healthy plant-based food through baking.'
             },
             {
-              t: 'gallery', images: [
-                { f: 'image5', zh: '「純素小小烘焙師班」上課花絮', en: '“Little Vegan Baker” class in session' },
-                { f: 'image6', zh: '「純素小小烘焙師班」上課花絮', en: '“Little Vegan Baker” class in session' },
-                { f: 'image7', zh: '「純素小小烘焙師班」學員作品', en: '“Little Vegan Baker” — the children’s creations' },
-                { f: 'image8', zh: '「純素小小烘焙師班」學員作品', en: '“Little Vegan Baker” — the children’s creations' }
-              ]
+              t: 'gallery',
+              captionZh: '「純素小小烘焙師班」上課花絮及作品',
+              captionEn: '“Little Vegan Bakers Class” — Class Highlights and Creations',
+              images: ['pg07_01', 'pg07_02', 'pg07_03', 'pg07_04'].map(f => ({ f, zh: '「純素小小烘焙師班」上課花絮及作品', en: '“Little Vegan Bakers Class” — class highlights and creations' }))
             }
           ],
           docent: {
@@ -214,8 +214,8 @@ const DATA = {
           blocks: [
             {
               t: 'body',
-              zh: '寶嚴 ESG 創生園區位於台東知本樂山，佔地 6 甲（約 5.8 公頃），種植 1,000 棵苦茶樹、300 棵桃樹與 500 棵黑松；金崙法雨寺佔地 2 甲（約 1.9 公頃），種植 200 棵五葉松；東河鄉 2 甲（約 1.9 公頃）土地種植 300 棵各類果樹。',
-              en: 'The Bao Yan ESG Regeneration Park is located at Leshan, Zhiben, in Taitung County. Covering 6 jia (approx. 5.8 hectares), it is planted with 1,000 tea-oil camellias, 300 peach trees, and 500 Japanese black pines. A 2-jia site (approx. 1.9 hectares) at Fayu Temple in Jinlun is planted with 200 Japanese white pines, and a further 2-jia site in Donghe Township with 300 fruit trees of various kinds.'
+              zh: '寶嚴 ESG 創生園區共有三處基地，分別位於台東知本樂山，佔地 6 甲（約 5.8 公頃），種植 1,000 棵苦茶樹、300 棵桃樹與 500 棵黑松；金崙法雨寺佔地 2 甲（約 1.9 公頃），種植 200 棵五葉松及東河鄉 2 甲（約 1.9 公頃）土地種植 300 棵各類果樹。',
+              en: 'The Bao Yan ESG Regeneration Park comprises three sites in Taitung County. The main site, at Leshan in Zhiben, covering 5.8 hectares, it is planted with 1,000 tea-oil camellias, 300 peach trees, and 500 Japanese black pines. A 1.9 hectares at Fayu Temple in Jinlun is planted with 200 Japanese white pines, and a further 1.9 hectares site in Donghe Township with 300 fruit trees of various kinds.'
             },
             {
               t: 'body',
@@ -224,29 +224,31 @@ const DATA = {
             },
             {
               t: 'stats', items: [
-                { n: '6 甲', nEn: '6 jia', zh: '知本樂山（約 5.8 公頃）', en: 'Leshan, Zhiben (approx. 5.8 ha)' },
+                { n: '3', zh: '處基地（皆在台東）', en: 'sites, all in Taitung' },
+                { n: '6 甲', zh: '知本樂山（約 5.8 公頃）', en: 'Leshan, Zhiben (5.8 ha)' },
                 { n: '1,000', zh: '棵苦茶樹', en: 'tea-oil camellias' },
                 { n: '300', zh: '棵桃樹', en: 'peach trees' },
                 { n: '500', zh: '棵黑松', en: 'Japanese black pines' },
-                { n: '200', zh: '棵五葉松（金崙法雨寺）', en: 'Japanese white pines (Fayu Temple, Jinlun)' },
-                { n: '300', zh: '棵果樹（東河鄉）', en: 'fruit trees (Donghe Township)' }
+                { n: '200', zh: '棵五葉松（金崙法雨寺 2 甲）', en: 'Japanese white pines (Fayu Temple, Jinlun)' },
+                { n: '300', zh: '棵果樹（東河鄉 2 甲）', en: 'fruit trees (Donghe Township)' }
               ]
             },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image9', zh: '寶嚴 ESG 創生園區位置圖', en: 'Location map of the Bao Yan ESG Regeneration Park' }
+                { f: 'pg08_01', zh: '寶嚴 ESG 創生園區位置圖', en: 'Location map of the Bao Yan ESG Regeneration Park' }
               ]
             },
             {
-              t: 'gallery', images: [
-                { f: 'image10', zh: '台東樂山國際禪修中心', en: 'Leshan International Meditation Center, Taitung' },
-                { f: 'image11', zh: '台東樂山國際禪修中心', en: 'Leshan International Meditation Center, Taitung' },
-                { f: 'image12', zh: '寶嚴山寶嚴禪寺', en: 'Bao Yan Chan Monastery, Mount Bao Yan' },
-                { f: 'image13', zh: '寶嚴山寶嚴禪寺', en: 'Bao Yan Chan Monastery, Mount Bao Yan' },
-                { f: 'image14', zh: '寶嚴山寶嚴禪寺', en: 'Bao Yan Chan Monastery, Mount Bao Yan' },
-                { f: 'image15', zh: '寶嚴山寶嚴禪寺', en: 'Bao Yan Chan Monastery, Mount Bao Yan' },
-                { f: 'image16', zh: '金崙法雨寺', en: 'Fayu Temple, Jinlun' }
-              ]
+              t: 'gallery', captionZh: '台東樂山國際禪修中心', captionEn: 'Leshan International Meditation Center, Taitung',
+              images: ['pg08_02', 'pg08_03'].map(f => ({ f, zh: '台東樂山國際禪修中心', en: 'Leshan International Meditation Center, Taitung' }))
+            },
+            {
+              t: 'gallery', captionZh: '寶嚴山寶嚴禪寺', captionEn: 'Bao Yan Chan Monastery, Mount Bao Yan',
+              images: ['pg08_04', 'pg08_05', 'pg08_06', 'pg08_07'].map(f => ({ f, zh: '寶嚴山寶嚴禪寺', en: 'Bao Yan Chan Monastery, Mount Bao Yan' }))
+            },
+            {
+              t: 'gallery', captionZh: '金崙法雨寺', captionEn: 'Fayu Temple, Jinlun',
+              images: [{ f: 'pg08_08', zh: '金崙法雨寺', en: 'Fayu Temple, Jinlun' }]
             }
           ],
           docent: {
@@ -255,7 +257,7 @@ const DATA = {
               en: '“The regeneration park is not landscaping. Every tree we plant ends up back on the table.”'
             },
             points: [
-              { zh: '三塊地：知本樂山 6 甲（約 5.8 公頃）、金崙法雨寺 2 甲、東河鄉 2 甲。', en: 'Three sites: Leshan in Zhiben, 6 jia (approx. 5.8 ha); Fayu Temple in Jinlun, 2 jia; Donghe Township, 2 jia.' },
+              { zh: '三處基地，全在台東：知本樂山 6 甲（約 5.8 公頃）、金崙法雨寺 2 甲、東河鄉 2 甲。', en: 'Three sites, all in Taitung: Leshan in Zhiben, 6 jia (5.8 ha); Fayu Temple in Jinlun, 2 jia; Donghe Township, 2 jia.' },
               { zh: '樹種各有用意：苦茶樹 1,000 棵（產苦茶油，接回前一區「選用優質好油」）、桃樹 300 棵、黑松 500 棵、五葉松 200 棵、果樹 300 棵。', en: 'Each species has a purpose: 1,000 tea-oil camellias (the oil links back to the free vegetarian meals), 300 peach trees, 500 black pines, 200 white pines, 300 fruit trees.' },
               { zh: '關鍵合作：國立中興大學「土壤碳匯研究暨推動中心」研究團隊——重點是土壤碳匯，不只是種樹。', en: 'Key partner: the Soil Carbon Sink Research and Promotion Center at National Chung Hsing University — the point is soil carbon, not just planting.' },
               { zh: '完整邏輯：改善土壤 → 恢復地力 → 自產好油與果實 → 供應分院免費蔬食，形成「完整的永續飲食循環」。', en: 'The full loop: improve the soil, restore fertility, grow the oil and fruit, supply the free vegetarian meals — a complete cycle of sustainable food.' }
@@ -290,15 +292,15 @@ const DATA = {
             },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image17', zh: 'ASSET 永續典範獎頒獎現場', en: 'At the ASSET Sustainability Model Awards ceremony' },
-                { f: 'image18', zh: '寶嚴 0 到 100 歲全齡全人經典教育架構圖', en: 'Bao Yan Whole-Person Classical Education Framework, Ages 0 to 100' }
+                { f: 'pg09_01', zh: 'ASSET 永續典範獎頒獎現場', en: 'At the ASSET Sustainability Model Awards ceremony' },
+                { f: 'pg09_02', zh: '寶嚴 0 到 100 歲全齡全人經典教育架構圖', en: 'Bao Yan Whole-Person Classical Education Framework, Ages 0 to 100' }
               ]
             },
             { t: 'heading', zh: '寶嚴六藝兒童發展中心', en: 'Bao Yan Six Arts Children’s Development Center' },
             {
               t: 'subheading',
-              zh: '「FLY 小星星探索營」與「EPIC 兒童哲學與心力量」',
-              en: '“FLY Little Stars Exploration Camp” and “EPIC Children’s Philosophy & Inner Strength”'
+              zh: '「FLY 小星星夏令營」與「EPIC 兒童哲學與心力量」',
+              en: '“FLY Little Stars Summer Camp” and “EPIC Children’s Philosophy & Inner Strength”'
             },
             {
               t: 'body',
@@ -307,13 +309,13 @@ const DATA = {
             },
             {
               t: 'body',
-              zh: '「FLY 小星星探索營」於暑假期間在四個縣市同時開辦，連續六週，共 24 個主題。',
-              en: '“FLY Little Stars Exploration Camp” runs for six consecutive weeks over the summer, held simultaneously in four cities and counties, with 24 themes in all.'
+              zh: '「FLY 小星星夏令營」於暑假期間在四個縣市同時開辦，連續六週，共 24 個主題。',
+              en: '“FLY Little Stars Summer Camp” runs for six consecutive weeks over the summer, held simultaneously in four cities and counties, with 24 themes in all.'
             },
             {
               t: 'table',
-              titleZh: '2026 年 FLY 小星星探索營各地營隊主題一覽',
-              titleEn: '2026 FLY Little Stars Exploration Camp — Camp Themes by Location',
+              titleZh: '2026 年 FLY 小星星夏令營各地營隊主題一覽',
+              titleEn: '2026 FLY Little Stars Summer Camp — Camp Themes by Location',
               head: [['日期', 'Dates'], ['台東', 'Taitung'], ['台北', 'Taipei'], ['台中', 'Taichung'], ['高雄', 'Kaohsiung']],
               rows: [
                 [['7/12–7/18', ''], ['心理覺察探索營（佛光大學心理學系）', 'Mind Awareness Camp (Dept. of Psychology, Fo Guang University)'], ['藝術探索週', 'Art Exploration Week'], ['積木與科學營', 'Building Blocks & Science Camp'], ['大設計師養成計畫', 'Young Designers Program']],
@@ -322,20 +324,12 @@ const DATA = {
                 [['8/02–8/08', ''], ['星空探索營', 'Starry Sky Camp'], ['嗅覺與芳香週', 'Smell & Aromatics Week'], ['積木與科學營', 'Building Blocks & Science Camp'], ['勇氣任務營', 'Mission: Courage']],
                 [['8/09–8/15', ''], ['星空探索營', 'Starry Sky Camp'], ['觸覺與健康週', 'Touch & Health Week'], ['街舞動感地帶', 'Street Dance Zone'], ['串出我的小世界', 'Beading My Little World']],
                 [['8/16–8/22', ''], ['華嚴六藝探索營', 'Avatamsaka Six Arts Camp'], ['邏輯與科學週', 'Logic & Science Week'], ['功夫英雄特訓班', 'Kung Fu Heroes Training Camp'], ['科學魔法書', 'The Book of Science Magic']]
-              ],
-              noteZh: '※ 台東欄 8/02–8/08 與 8/09–8/15 均為「星空探索營」，為連續兩週開辦。',
-              noteEn: '※ Taitung runs the Starry Sky Camp for two consecutive weeks (8/02–8/08 and 8/09–8/15).'
+              ]
             },
             {
-              t: 'gallery', images: [
-                { f: 'image19', zh: 'FLY 小星星探索營活動剪影', en: 'Scenes from the FLY Little Stars Exploration Camp' },
-                { f: 'image20', zh: 'FLY 小星星探索營活動剪影', en: 'Scenes from the FLY Little Stars Exploration Camp' },
-                { f: 'image21', zh: 'FLY 小星星探索營活動剪影', en: 'Scenes from the FLY Little Stars Exploration Camp' },
-                { f: 'image22', zh: 'FLY 小星星探索營活動剪影', en: 'Scenes from the FLY Little Stars Exploration Camp' },
-                { f: 'image23', zh: 'FLY 小星星探索營活動剪影', en: 'Scenes from the FLY Little Stars Exploration Camp' },
-                { f: 'image24', zh: 'FLY 小星星探索營活動剪影', en: 'Scenes from the FLY Little Stars Exploration Camp' },
-                { f: 'image25', zh: 'FLY 小星星探索營活動剪影', en: 'Scenes from the FLY Little Stars Exploration Camp' }
-              ]
+              t: 'gallery', captionZh: 'FLY 小星星夏令營活動剪影', captionEn: 'Scenes from the FLY Little Stars Summer Camp',
+              images: ['pg11_01', 'pg11_02', 'pg11_03', 'pg11_04', 'pg11_05', 'pg11_06', 'pg11_07']
+                .map(f => ({ f, zh: 'FLY 小星星夏令營活動剪影', en: 'Scenes from the FLY Little Stars Summer Camp' }))
             }
           ],
           docent: {
@@ -346,7 +340,7 @@ const DATA = {
             points: [
               { zh: '先講獎：圓道文教基金會獲「2025 第七屆 ASSET 永續典範獎」的「社會創新｜社會共好獎」——這一區是被外部肯定過的。', en: 'Start with the award: the Foundation won the Social Innovation | Social Well-Being Award at the 7th ASSET Sustainability Model Awards, 2025 — externally validated.' },
               { zh: '請觀眾看架構圖：從兒童教育、普羅大眾、企業人士到樂齡長者，中間貫串的是 EPIC 四個字。', en: 'Point at the framework: children, the general public, business people, and elders — all threaded by the four letters EPIC.' },
-              { zh: '兒童這一塊有兩個系統：週日的「EPIC 兒童哲學與心力量」走六藝＋六感（視覺／聽覺／味覺／嗅覺／觸覺／邏輯），暑假的「FLY 小星星探索營」六週、四縣市同時開、共 24 個主題。', en: 'Two children’s systems: the Sunday “EPIC Children’s Philosophy & Inner Strength” built on six arts and six senses; and the summer “FLY Little Stars Exploration Camp” — six weeks, four counties simultaneously, 24 themes.' },
+              { zh: '兒童這一塊有兩個系統：週日的「EPIC 兒童哲學與心力量」走六藝＋六感（視覺／聽覺／味覺／嗅覺／觸覺／邏輯），暑假的「FLY 小星星夏令營」六週、四縣市同時開、共 24 個主題。', en: 'Two children’s systems: the Sunday “EPIC Children’s Philosophy & Inner Strength” built on six arts and six senses; and the summer “FLY Little Stars Summer Camp” — six weeks, four counties simultaneously, 24 themes.' },
               { zh: '營隊不是自己關起門來辦：台東場找了佛光大學心理學系、中興大學土壤環境科學系合作。', en: 'The camps are not run in isolation — Taitung partners with Fo Guang University’s Psychology Department and NCHU’s Soil and Environmental Sciences.' }
             ],
             ask: { zh: '「表上這 24 個主題，如果您是小朋友，最想報哪一個？」', en: '“If you were eight years old, which of these 24 camps would you sign up for?”' }
@@ -355,13 +349,9 @@ const DATA = {
 
         {
           id: 's2', kindZh: '小看板（1）｜兒童教育', kindEn: 'Sub-Panel 1 | Children’s Education',
-          titleZh: '兒童教育', titleEn: 'Children’s Education',
+          titleZh: '善財童子宇宙奇航遊戲牌卡',
+          titleEn: 'Sudhana’s Legends of the Universe — Card Game',
           blocks: [
-            {
-              t: 'subheading',
-              zh: '善財童子五十三參善知識牌卡',
-              en: 'Sudhana’s Fifty-Three Visits: The Spiritual Friends Card Game'
-            },
             {
               t: 'body',
               zh: '以《華嚴經》善財童子五十三參的參學歷程為文本，開發融合聯合國永續發展目標（SDGs）的教育遊戲牌卡。透過遊戲中尋訪善知識的故事情境，打造創新的兒童教育工具。',
@@ -369,21 +359,23 @@ const DATA = {
             },
             {
               t: 'gallery', images: [
-                { f: 'image27', zh: '善財童子五十三參善知識牌卡', en: 'The Spiritual Friends card set' },
-                { f: 'image28', zh: '兒童教室上課實況', en: 'The children’s classroom' }
+                { f: 'pg12_03', zh: '善財童子宇宙奇航・小星星因陀羅網遊戲盤', en: 'Sudhana’s Legends of the Universe — the Little Stars Indra’s Net game board' },
+                { f: 'pg12_01', zh: '善財童子宇宙奇航遊戲牌卡全套', en: 'The complete card set' },
+                { f: 'pg12_02', zh: '真人版大地墊：孩子在遊戲中尋訪善知識', en: 'The life-size floor mat — children seeking their spiritual friends in play' }
               ]
             }
           ],
           docent: {
             hook: {
-              zh: '「《華嚴經》裡，善財童子拜訪了五十三位老師。我們把它做成了一副牌，而且每一位都對到一個 SDG。」',
+              zh: '「《華嚴經》裡，善財童子拜訪了五十三位老師。我們把它做成了一套牌卡，而且每一位都對到一個 SDG。」',
               en: '“In the Avatamsaka Sutra, the boy Sudhana visits fifty-three teachers. We turned that into a card game — and mapped each one to a UN SDG.”'
             },
             points: [
               { zh: '文本來源明確：《華嚴經》善財童子五十三參的參學歷程。', en: 'The source text is specific: Sudhana’s pilgrimage to fifty-three spiritual friends in the Avatamsaka Sutra.' },
               { zh: '設計上把聯合國永續發展目標（SDGs）融進去——古經典直接接上國際永續語言。', en: 'The design weaves in the UN Sustainable Development Goals — an ancient text speaking the international language of sustainability.' },
-              { zh: '五十三位善知識身分各不相同（不同職業、性別、生命經驗），本身就是「多元共融」的現成教材。', en: 'The fifty-three friends come from every walk of life and every gender — a ready-made lesson in diversity and inclusion.' },
-              { zh: '玩法核心是「尋訪」：孩子在故事情境中主動去找善知識，而不是被動聽課。', en: 'The core mechanic is seeking: children actively go and find their teachers inside the story, rather than sitting and listening.' }
+              { zh: '遊戲盤是「小星星因陀羅網」：珠珠相映、重重無盡，本身就是華嚴的宇宙觀。', en: 'The board is the Little Stars Indra’s Net — every jewel reflecting every other, the Avatamsaka’s image of the cosmos.' },
+              { zh: '現場有真人版大地墊，鋪在地上讓孩子直接走進去玩，可以請小朋友試試。', en: 'There is a life-size floor mat on site — children can step onto the board and play. Invite them to try.' },
+              { zh: '五十三位善知識身分各不相同（不同職業、性別、生命經驗），本身就是「多元共融」的現成教材。', en: 'The fifty-three friends come from every walk of life and every gender — a ready-made lesson in diversity and inclusion.' }
             ],
             ask: { zh: '「如果讓您挑一位人生中的『善知識』，您會想到誰？」', en: '“If you had to name one spiritual friend in your own life, who comes to mind?”' }
           }
@@ -401,11 +393,8 @@ const DATA = {
               en: 'The fifty-three spiritual friends come from every walk of life and every gender, each embodying a wisdom of their own. Which one are you most like? Take the quiz and discover the character traits and strengths that are uniquely yours. Perhaps you are the spiritual friend someone else is waiting to meet.'
             },
             {
-              /* 註：印刷稿中兩張 QR 與標題對調（image29 實際指向抽籤頁、image30 指向面相頁）。
-                 此處已依 QR 實際連結配對正確標題。 */
               t: 'qr', items: [
-                { f: 'image30', zh: '面相觀照', en: 'Read Your Face, See Your Heart', url: 'https://twnyda07.github.io/baoyan-53can/face.html' },
-                { f: 'image29', zh: '善知識抽籤', en: 'Which Spiritual Friend Will You Meet?', url: 'https://twnyda07.github.io/baoyan-53can/' }
+                { f: 'pg12_04', zh: '面相觀照', en: 'Read Your Face, See Your Heart', url: 'https://twnyda07.github.io/baoyan-53can/face.html' }
               ]
             }
           ],
@@ -415,7 +404,7 @@ const DATA = {
               en: '“This one you can try yourself — scan, and find out which of the fifty-three spiritual friends you are most like.”'
             },
             points: [
-              { zh: '現場有兩個互動：「面相觀照」與「善知識抽籤」，各有一個 QR Code，也可以直接用桌上的 iPad。', en: 'Two interactive pieces on site — “Read Your Face, See Your Heart” and “Which Spiritual Friend Will You Meet?” — each with its own QR code, or use the iPad on the table.' },
+              { zh: '現場的互動是「面相觀照」，有 QR Code，也可以直接用桌上的 iPad。', en: 'The interactive piece on site is “Read Your Face, See Your Heart” — scan the QR code, or use the iPad on the table.' },
               { zh: '引導語可以用看板最後那句：「也許，你正是某個人生命中等待相遇的善知識。」這句最容易讓觀眾停下來。', en: 'Use the panel’s closing line: “Perhaps you are the spiritual friend someone else is waiting to meet.” It is the line that makes people pause.' },
               { zh: '這是把前一塊「牌卡」從兒童延伸到成人的入口——同一套五十三參，大人也玩得到。', en: 'This extends the card game from children to adults — the same fifty-three visits, now for grown-ups.' },
               { zh: '操作提示：讓觀眾自己掃、自己讀結果，解說員不必逐字念，站旁邊接話就好。', en: 'Practical tip: let visitors scan and read the result themselves; stand alongside and pick up the conversation afterwards.' }
@@ -463,13 +452,13 @@ const DATA = {
             },
             {
               t: 'gallery', captionZh: '歷屆 EPIC 企業領袖營', captionEn: 'EPIC Business Leaders Camps to date', images: [
-                { f: 'image31', zh: '2024/10/11–10/12　集思台大會議中心', en: 'GIS NTU Convention Center, October 11–12, 2024' },
-                { f: 'image32', zh: '2025/12/27–12/28　集思台大會議中心', en: 'GIS NTU Convention Center, December 27–28, 2025' },
-                { f: 'image33', zh: '2026/02/28–03/01　EPIC 禪藝實相人文空間', en: 'EPIC Chan Arts & True Reality Cultural Space, February 28 – March 1, 2026' },
-                { f: 'image34', zh: '2025/02/22–02/23　集思台大會議中心', en: 'GIS NTU Convention Center, February 22–23, 2025' },
-                { f: 'image35', zh: '2025/05/17–05/18　新加坡國立大學校友俱樂部', en: 'NUS Alumni Club, Singapore, May 17–18, 2025' },
-                { f: 'image36', zh: '2025/02/15–02/16　逢甲大學', en: 'Feng Chia University, February 15–16, 2025' },
-                { f: 'image37', zh: '2025/04/19–04/20　集思台大會議中心', en: 'GIS NTU Convention Center, April 19–20, 2025' }
+                { f: 'pg13_01', zh: '2024/10/11–10/12　集思台大會議中心', en: 'GIS NTU Convention Center, October 11–12, 2024' },
+                { f: 'pg14_01', zh: '2026/02/28–03/01　EPIC 禪藝實相人文空間', en: 'EPIC Chan Arts & True Reality Cultural Space, February 28 – March 1, 2026' },
+                { f: 'pg14_02', zh: '2025/12/27–12/28　集思台大會議中心', en: 'GIS NTU Convention Center, December 27–28, 2025' },
+                { f: 'pg14_03', zh: '2025/05/17–05/18　新加坡國立大學校友俱樂部', en: 'NUS Alumni Club, Singapore, May 17–18, 2025' },
+                { f: 'pg14_04', zh: '2025/02/22–02/23　集思台大會議中心', en: 'GIS NTU Convention Center, February 22–23, 2025' },
+                { f: 'pg14_05', zh: '2025/04/19–04/20　集思台大會議中心', en: 'GIS NTU Convention Center, April 19–20, 2025' },
+                { f: 'pg14_06', zh: '2025/02/15–02/16　逢甲大學', en: 'Feng Chia University, February 15–16, 2025' }
               ]
             }
           ],
@@ -496,7 +485,7 @@ const DATA = {
           blocks: [
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image38', zh: '經典學養教育主視覺：幼有所長・壯有所用・老有所養', en: 'Classical Sutra Education — “The young grow, the able serve, the old are cared for”' }
+                { f: 'pg15_01', zh: '經典學養教育主視覺：幼有所長・壯有所用・老有所養', en: 'Classical Sutra Education — “The young grow, the able serve, the old are cared for”' }
               ]
             },
             {
@@ -534,8 +523,8 @@ const DATA = {
               zh: '八十三歲的老菩薩，自 2019 年雲端課程開播以來，每日清晨 5:00 到晚上 10:30 持續不斷隨堂上課及共修，並一字一句勤做筆記，累積數十本工整筆記。美好的晚年，讓佛法智慧滋養身心。',
               en: 'Since the online program began in 2019, an eighty-three-year-old practitioner has attended class and joined group practice every day, from 5:00 a.m. to 10:30 p.m., taking notes word by word and filling dozens of neatly written notebooks — a beautiful later life, body and mind nourished by the wisdom of the Dharma.',
               images: [
-                { f: 'image39', zh: '八十三歲老菩薩每日隨堂上課', en: 'An eighty-three-year-old practitioner at her daily online class' },
-                { f: 'image40', zh: '數十本工整的隨堂筆記', en: 'Dozens of neatly written class notebooks' }
+                { f: 'pg16_01', zh: '八十三歲老菩薩每日隨堂上課', en: 'An eighty-three-year-old practitioner at her daily online class' },
+                { f: 'pg16_02', zh: '數十本工整的隨堂筆記', en: 'Dozens of neatly written class notebooks' }
               ]
             },
             {
@@ -544,11 +533,8 @@ const DATA = {
               titleEn: 'Case Two | Ten Years of Hearing, Reflecting, and Practicing: Writing Out the Living Power of the Sutras, Stroke by Stroke',
               zh: '美鈴居士（60 歲）從《楞嚴經通說》、《大乘起信論》、《教觀綱宗》，到「唯識專題」與《瑜伽師地論》，都留下滿滿的筆記，印證了經典教育如何透過長期薰習，成為安定生命的力量。',
               en: 'Meiling, a lay practitioner of sixty, has filled notebook after notebook — from the Commentary on the Surangama Sutra, the Awakening of Faith in the Mahayana, and the Essentials of the Teachings and Contemplations, through to the Yogacara seminars and the Yogacarabhumi Sastra — proof of how classical education, absorbed over many years, becomes a steadying force in life.',
-              images: [
-                { f: 'image41', zh: '美鈴居士十年間累積的經典筆記', en: 'A decade of sutra notes kept by Meiling, a lay practitioner' },
-                { f: 'image42', zh: '美鈴居士十年間累積的經典筆記', en: 'A decade of sutra notes kept by Meiling, a lay practitioner' },
-                { f: 'image43', zh: '美鈴居士十年間累積的經典筆記', en: 'A decade of sutra notes kept by Meiling, a lay practitioner' }
-              ]
+              images: ['pg17_01', 'pg17_02', 'pg17_03']
+                .map(f => ({ f, zh: '美鈴居士十年間累積的經典筆記', en: 'A decade of sutra notes kept by Meiling, a lay practitioner' }))
             },
             {
               t: 'case',
@@ -556,9 +542,7 @@ const DATA = {
               titleEn: 'Case Three | Huang Chien-yu, Heart Transplant Recipient: May This Heart Be Worthy of This Life',
               zh: '黃健予十年前接受心臟移植，成為振興醫院第 461 號換心人，發願演講 108 場分享生命故事。出版第一本書《失去心跳的勇氣》，由本書改編的電視劇獲 2023 年金鐘獎最佳女配角及最佳男主角入圍。\n遇見寶嚴禪寺後，與中國的企業教育機構合作，主持一年期寶嚴雲端學院「善財童子五十三參」課程，隨即出版新書《靈魂重組》，記錄將《華嚴經》要義內化並展現於生命的深刻經歷。',
               en: 'Huang Chien-yu received a heart transplant ten years ago, becoming the 461st transplant recipient at Cheng Hsin General Hospital, and vowed to give 108 talks sharing his life story. He published his first book, The Courage to Lose a Heartbeat; the television series adapted from it earned nominations for Best Supporting Actress and Best Leading Actor at the 2023 Golden Bell Awards.\nAfter encountering Bao Yan Chan Monastery, he partnered with a corporate education organization in China to host a year-long course on “Sudhana’s Fifty-Three Visits” at the Bao Yan Cloud Academy, and went on to publish a new book, Soul Reassembled, recording the profound experience of internalizing the essential meaning of the Avatamsaka Sutra and living it out in his own life.',
-              images: [
-                { f: 'image44', zh: '換心人黃健予', en: 'Huang Chien-yu, heart transplant recipient' }
-              ]
+              images: [{ f: 'pg17_04', zh: '換心人黃健予', en: 'Huang Chien-yu, heart transplant recipient' }]
             }
           ],
           docent: {
@@ -594,21 +578,24 @@ const DATA = {
             },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image45', zh: 'EPIC 禪藝實相人文空間展場一隅', en: 'Inside the EPIC Chan Arts & True Reality Cultural Space' }
+                { f: 'pg18_01', zh: 'EPIC 禪藝實相人文空間展場一隅', en: 'Inside the EPIC Chan Arts & True Reality Cultural Space' }
               ]
             },
             { t: 'heading', zh: '2026 年迄今展出主題', en: 'Exhibition Themes to Date in 2026' },
             {
               t: 'gallery', captionZh: '・「活成一道光」專家演講', captionEn: '“Live as a Ray of Light” Expert Talks',
-              images: ['image46', 'image47', 'image48', 'image49', 'image50', 'image51'].map(f => ({ f, zh: '「活成一道光」系列講座海報', en: 'Poster from the “Live as a Ray of Light” lecture series' }))
+              images: ['pg19_01', 'pg19_02', 'pg19_03', 'pg19_04', 'pg19_05', 'pg19_06']
+                .map(f => ({ f, zh: '「活成一道光」系列講座海報', en: 'Poster from the “Live as a Ray of Light” lecture series' }))
             },
             {
               t: 'gallery', captionZh: '・「名人講堂」專家演講', captionEn: '“Distinguished Speakers Forum” Expert Talks',
-              images: ['image52', 'image53', 'image54', 'image55', 'image56', 'image57'].map(f => ({ f, zh: '「名人講堂」系列講座海報', en: 'Poster from the “Distinguished Speakers Forum” lecture series' }))
+              images: ['pg19_07', 'pg19_08', 'pg19_09', 'pg19_10', 'pg19_11', 'pg19_12']
+                .map(f => ({ f, zh: '「名人講堂」系列講座海報', en: 'Poster from the “Distinguished Speakers Forum” lecture series' }))
             },
             {
               t: 'gallery', captionZh: '・藝術展覽', captionEn: 'Art Exhibitions',
-              images: ['image58', 'image59', 'image60', 'image61', 'image62', 'image63', 'image64', 'image65'].map(f => ({ f, zh: '2026 年 EPIC 禪藝實相人文空間藝術展覽海報', en: 'Art exhibition poster, EPIC Chan Arts & True Reality Cultural Space, 2026' }))
+              images: ['pg20_01', 'pg20_02', 'pg20_03', 'pg20_04', 'pg20_05', 'pg20_06', 'pg20_07', 'pg20_08']
+                .map(f => ({ f, zh: '2026 年 EPIC 禪藝實相人文空間藝術展覽海報', en: 'Art exhibition poster, EPIC Chan Arts & True Reality Cultural Space, 2026' }))
             },
             { t: 'subheading', zh: '寫禪　手抄金剛經塔', en: 'Writing Chan — The Hand-Copied Diamond Sutra Pagoda' },
             {
@@ -618,7 +605,8 @@ const DATA = {
             },
             {
               t: 'gallery',
-              images: ['image66', 'image67', 'image68', 'image69', 'image70', 'image71'].map(f => ({ f, zh: '寫禪：以筆墨一字一字臨摹金剛經塔', en: 'Writing Chan: copying the Diamond Sutra pagoda character by character' }))
+              images: ['pg21_01', 'pg21_02', 'pg21_03', 'pg21_04', 'pg21_05', 'pg21_06']
+                .map(f => ({ f, zh: '寫禪：以筆墨一字一字臨摹金剛經塔', en: 'Writing Chan: copying the Diamond Sutra pagoda character by character' }))
             },
             { t: 'subheading', zh: '千人寫經造塔行動', en: 'The Thousand-Person Sutra-Copying Pagoda Initiative' },
             {
@@ -629,11 +617,11 @@ const DATA = {
             {
               t: 'gallery', captionZh: '千人寫經造塔行動現場', captionEn: 'A Thousand-Person Sutra-Copying Pagoda session',
               images: [
-                { f: 'image72', zh: '千人寫經造塔行動現場', en: 'A Thousand-Person Sutra-Copying Pagoda session' },
-                { f: 'image73', zh: '泉州金剛般若寫禪', en: 'Diamond Prajna Writing Chan, Quanzhou' },
-                { f: 'image74', zh: '蘇州金剛般若寫禪', en: 'Diamond Prajna Writing Chan, Suzhou' },
-                { f: 'image75', zh: '瀋陽金剛般若寫禪', en: 'Diamond Prajna Writing Chan, Shenyang' },
-                { f: 'image76', zh: '廈門金剛般若寫禪', en: 'Diamond Prajna Writing Chan, Xiamen' }
+                { f: 'pg22_01', zh: '泉州金剛般若寫禪', en: 'Diamond Prajna Writing Chan, Quanzhou' },
+                { f: 'pg22_02', zh: '泉州金剛般若寫禪', en: 'Diamond Prajna Writing Chan, Quanzhou' },
+                { f: 'pg22_03', zh: '瀋陽金剛般若寫禪', en: 'Diamond Prajna Writing Chan, Shenyang' },
+                { f: 'pg22_04', zh: '廈門金剛般若寫禪', en: 'Diamond Prajna Writing Chan, Xiamen' },
+                { f: 'pg22_05', zh: '蘇州金剛般若寫禪', en: 'Diamond Prajna Writing Chan, Suzhou' }
               ]
             },
             { t: 'subheading', zh: '因陀羅網工藝教室', en: 'Indra’s Net Craft Studio' },
@@ -644,10 +632,10 @@ const DATA = {
             },
             {
               t: 'gallery', images: [
-                { f: 'image77', zh: '從工到藝到藝術：高階珠寶因陀羅網人才培育全佈局', en: 'From Craft to Art: A Talent-Development Blueprint for Indra’s Net Fine Jewelry' },
-                { f: 'image78', zh: '串珠藝術版圖：整合未來教育與價值的跨界指南', en: 'The Beadwork Landscape: A Cross-Disciplinary Guide to Future Education and Value' },
-                { f: 'image79', zh: '因陀羅網工藝教室上課實況', en: 'The Indra’s Net Craft Studio in session' },
-                { f: 'image80', zh: '因陀羅網工藝教室成果分享', en: 'A presentation of the studio’s work' }
+                { f: 'pg23_01', zh: '從工到藝到藝術：高階珠寶因陀羅網人才培育全佈局', en: 'From Craft to Art: A Talent-Development Blueprint for Indra’s Net Fine Jewelry' },
+                { f: 'pg23_02', zh: '串珠藝術版圖：整合未來教育與價值的跨界指南', en: 'The Beadwork Landscape: A Cross-Disciplinary Guide to Future Education and Value' },
+                { f: 'pg23_03', zh: '因陀羅網工藝教室上課實況', en: 'The Indra’s Net Craft Studio in session' },
+                { f: 'pg23_04', zh: '因陀羅網工藝教室成果分享', en: 'A presentation of the studio’s work' }
               ]
             }
           ],
@@ -661,7 +649,7 @@ const DATA = {
               { zh: '寫禪金剛經塔：把《金剛經》的字句堆成七層寶塔，寫在蟬翼宣紙上。重點在「定慧雙修」——一字一字寫，身心就收攝了。', en: 'Writing Chan: the Diamond Sutra stacked into a seven-tiered pagoda on cicada-wing xuan paper. The point is concentration and wisdom together — the mind gathers as the hand writes.' },
               { zh: '千人寫經造塔的規模：台灣、美國、新加坡、加拿大及中國各省數十場；疫情期間 Zoom 同步開四十班，並把金剛經塔禮盒送給第一線防疫人員與隔離者。', en: 'Scale: dozens of sessions across Taiwan, the US, Singapore, Canada, and provinces of China; during the pandemic, forty Zoom classes at once, with pagoda gift sets sent to frontline workers and people in quarantine.' },
               { zh: '因陀羅網：與輔仁大學織品服裝學系合作，用施華洛世奇水晶珠，在持咒與編織中把祝福織進作品。這一項開放企業與團體洽談開班。', en: 'Indra’s Net: with Fu Jen Catholic University’s Department of Textiles and Clothing, Swarovski crystal beads are woven while mantras are recited. Companies and groups can arrange their own classes.' },
-              { zh: '「因陀羅網」本身就是華嚴的宇宙觀——珠珠相映、重重無盡，很適合接回主視覺的「一個人的心影響整個世界」。', en: 'Indra’s Net is the Avatamsaka’s image of the cosmos — every jewel reflecting every other — which loops neatly back to the main visual.' }
+              { zh: '「因陀羅網」本身就是華嚴的宇宙觀——珠珠相映、重重無盡，跟兒童區那張遊戲盤是同一個概念。', en: 'Indra’s Net is the Avatamsaka’s image of the cosmos — every jewel reflecting every other — the same idea as the children’s game board.' }
             ],
             ask: { zh: '「一部經抄成一座塔，抄完大概要幾個小時？您願意坐下來試試看嗎？」', en: '“A whole sutra copied into a pagoda — how many hours would you guess? Would you sit down and try?”' }
           }
@@ -704,14 +692,14 @@ const DATA = {
             },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image81', zh: '《跟著華嚴經去旅行》得獎殊榮', en: 'Traveling with the Avatamsaka Sutra — awards and honors' },
-                { f: 'image82', zh: '寶嚴禪寺弘法行腳圖（華嚴經供養行跡圖）', en: 'Bao Yan Chan Monastery — map of Dharma outreach' }
+                { f: 'pg24_01', zh: '《跟著華嚴經去旅行》得獎殊榮', en: 'Traveling with the Avatamsaka Sutra — awards and honors' },
+                { f: 'pg24_02', zh: '寶嚴禪寺弘法行腳圖（華嚴經供養行跡圖）', en: 'Bao Yan Chan Monastery — map of Dharma outreach' }
               ]
             },
             { t: 'heading', zh: '好好用心　心好好用', en: 'Mind Well Tended, Mind Well Used' },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image83', zh: '寶嚴禪寺大型法會現場', en: 'A large Dharma assembly at Bao Yan Chan Monastery' }
+                { f: 'pg25_01', zh: '寶嚴禪寺大型法會現場', en: 'A large Dharma assembly at Bao Yan Chan Monastery' }
               ]
             },
             {
@@ -769,9 +757,14 @@ const DATA = {
             },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image84', zh: '寶嚴禪寺新建工程建築模擬圖', en: 'Architectural rendering of the new Bao Yan Chan Monastery' },
-                { f: 'image85', zh: '空中土地──基地地形設計概念', en: '“Land in the Air” — the site’s topographic design concept' },
-                { f: 'image86', zh: '寶嚴 ESG 創生園區配置圖', en: 'Site plan of the Bao Yan ESG Regeneration Park' }
+                { f: 'pg26_01', zh: '寶嚴禪寺新建工程建築模擬圖', en: 'Architectural rendering of the new Bao Yan Chan Monastery' },
+                { f: 'pg26_02', zh: '空中土地──基地地形設計概念', en: '“Land in the Air” — the site’s topographic design concept' }
+              ]
+            },
+            {
+              t: 'gallery', wide: true, images: [
+                { f: 'pg27_01', zh: '寶嚴 ESG 創生園區配置圖', en: 'Site plan of the Bao Yan ESG Regeneration Park' },
+                { f: 'pg27_02', zh: '寶嚴禪寺量體分區說明', en: 'Bao Yan Chan Monastery — massing and zoning diagram' }
               ]
             },
             {
@@ -781,11 +774,6 @@ const DATA = {
                 { zh: '藝術教育中心', en: 'Arts Education Center' },
                 { zh: '普莊嚴園', en: 'Garden of Universal Adornment' },
                 { zh: '閉關中心', en: 'Solitary Retreat Center' }
-              ]
-            },
-            {
-              t: 'gallery', wide: true, images: [
-                { f: 'image87', zh: '寶嚴禪寺量體分區說明', en: 'Bao Yan Chan Monastery — massing and zoning diagram' }
               ]
             },
             {
@@ -831,7 +819,7 @@ const DATA = {
             },
             {
               t: 'gallery', wide: true, images: [
-                { f: 'image89', zh: '寶嚴各分院地圖：台灣・新加坡・夏威夷', en: 'Map of Bao Yan branches: Taiwan · Singapore · Hawaii' }
+                { f: 'pg30_01', zh: '寶嚴各分院地圖：台灣・新加坡・夏威夷', en: 'Map of Bao Yan branches: Taiwan · Singapore · Hawaii' }
               ]
             }
           ],
@@ -851,5 +839,5 @@ const DATA = {
         }
       ]
     }
-  ],
+  ]
 };

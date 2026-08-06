@@ -852,21 +852,4 @@ const DATA = {
       ]
     }
   ],
-
-  /* 物料清單（工作人員用） */
-  materials: {
-    titleZh: '亞太永續博覽會物料準備清單',
-    titleEn: 'Asia-Pacific Sustainability Expo — Materials Preparation Checklist',
-    rows: [
-      [1, '兒童教育區', 'Children’s Education Zone', '兒童班下學期課程海報', 'Children’s Class Poster — Next Semester'],
-      [2, '兒童教育區', 'Children’s Education Zone', '善財童子五十三參善知識牌卡', 'Sudhana’s Fifty-Three Visits Spiritual Friends Card Game'],
-      [3, '兒童教育區', 'Children’s Education Zone', 'iPad', 'iPad'],
-      [4, '企業教育區', 'Corporate Education Zone', '企業營課程教材', 'Business Leaders Camp Course Materials'],
-      [5, '企業教育區', 'Corporate Education Zone', '經典教育學院 DM', 'Classical Education Academy Brochure'],
-      [6, '經典學養教育區', 'Classical Sutra Education Zone', '華嚴經', 'Avatamsaka Sutra'],
-      [7, '藝術教育區', 'Arts Education Zone', '金剛經塔', 'Diamond Sutra Pagoda'],
-      [8, '藝術教育區', 'Arts Education Zone', '因陀羅網工藝教室海報', 'Indra’s Net Craft Studio Poster'],
-      [9, '主視覺區', 'Main Visual Zone', '寶嚴手冊', 'Bao Yan Handbook']
-    ]
-  }
 };

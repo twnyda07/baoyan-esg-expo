@@ -83,9 +83,6 @@ nav.zones{position:sticky;top:var(--navtop,52px);z-index:55;background:rgba(253,
 .hero .coupletEn{font-size:.92rem;color:#c3d4ef;letter-spacing:.06em;margin-top:.35rem;
   font-family:"Iowan Old Style",Palatino,Georgia,serif}
 .hero .org{margin-top:1.7rem;font-size:.8rem;color:#a9bcda;line-height:1.9}
-.hero .how{margin-top:1.6rem;display:inline-flex;flex-wrap:wrap;gap:.5rem;justify-content:center}
-.hero .how span{font-size:.75rem;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);
-  padding:.35rem .8rem;border-radius:999px;color:#d9e5f7}
 
 /* ── layout ── */
 main{max-width:var(--maxw);margin:0 auto;padding:0 1rem 5rem}
@@ -303,13 +300,6 @@ body.guide .docent{display:block}
 .dask .zh{font-size:.98rem;color:var(--blue-800)}
 .dask .enx{font-size:.85rem;margin-top:.3rem;font-style:italic}
 
-/* materials */
-.mat{margin-top:3rem;border-top:1px solid var(--line);padding-top:1.6rem}
-.mat h2{font-size:1.2rem;color:var(--blue-800);letter-spacing:.05em;margin-bottom:.2rem}
-.mat h3{font-size:.85rem;font-weight:400;color:var(--ink-3);margin-bottom:.9rem;
-  font-family:"Iowan Old Style",Palatino,Georgia,serif}
-.mat{--zc:var(--blue-700)}
-
 /* footer */
 footer{background:var(--blue-900);color:#93a8c9;padding:2.2rem 1rem 2.6rem;text-align:center;font-size:.8rem;
   line-height:1.9}
@@ -342,7 +332,6 @@ footer .fl{margin-top:.9rem;font-size:.74rem;color:#63789a}
   .seg button,.tgl{font-size:.72rem;padding:.34rem .58rem}
   .hero{padding:2rem .9rem 2.2rem}
   .hero .org{margin-top:1.3rem}
-  .hero .how{margin-top:1.2rem}
   main{padding:0 .7rem 4rem}
   .phead{padding:.9rem .95rem;gap:.6rem}
   .pbody{padding:.3rem .95rem 1.2rem}
@@ -351,7 +340,7 @@ footer .fl{margin-top:.9rem;font-size:.74rem;color:#63789a}
 }
 
 @media print{
-  header,nav.zones,#searchbar,.hero .how,footer .fl,#lb{display:none !important}
+  header,nav.zones,#searchbar,footer .fl,#lb{display:none !important}
   body{background:#fff;font-size:11pt}
   .pbody{display:block !important}
   article.panel{break-inside:avoid;box-shadow:none}
@@ -399,11 +388,6 @@ footer .fl{margin-top:.9rem;font-size:.74rem;color:#63789a}
   <div class="coupletEn">Purifying the Land, Maturing All Beings</div>
   <div class="org">財團法人圓道文教基金會・寶嚴禪寺<br>
     Yuandao Culture and Education Foundation · Bao Yan Chan Monastery</div>
-  <div class="how">
-    <span>📖 展區看板全文，中英對照</span>
-    <span>🎙 按「解說員」看導覽要點</span>
-    <span>🔍 可搜尋・可放大字級</span>
-  </div>
 </div>
 
 <main id="main"></main>
@@ -598,20 +582,8 @@ DATA.zones.forEach(z => {
   html += `</section>`;
 });
 
-/* materials */
-html += `<section class="zone mat" id="materials">
-  <h2>${esc(DATA.materials.titleZh)}</h2>
-  <h3>${esc(DATA.materials.titleEn)}</h3>
-  <div class="tscroll"><table>
-    <thead><tr><th>${bi('編號','No.')}</th><th>${bi('區域','Zone')}</th><th>${bi('物料名稱','Item')}</th></tr></thead>
-    <tbody>${DATA.materials.rows.map(r=>
-      `<tr><td>${r[0]}</td><td>${bi(r[1],r[2])}</td><td>${bi(r[3],r[4])}</td></tr>`).join('')}</tbody>
-  </table></div>
-</section>`;
-
 document.getElementById('main').innerHTML = html;
-document.getElementById('znav').innerHTML =
-  nav + `<a href="#materials" style="--zc:var(--blue-700)"><i>V</i>物料清單</a>`;
+document.getElementById('znav').innerHTML = nav;
 
 /* ══ accordion ══ */
 const panels = [...document.querySelectorAll('article.panel')];
@@ -708,13 +680,8 @@ q.addEventListener('input', () => {
     p.classList.toggle('hid', !hit);
     if(hit){ n++; toggle(p, true); }
   });
-  document.querySelectorAll('section.zone').forEach(s => {
-    if(s.id === 'materials'){
-      s.classList.toggle('hid', !s.textContent.toLowerCase().includes(t));
-      return;
-    }
-    s.classList.toggle('hid', !s.querySelector('article.panel:not(.hid)'));
-  });
+  document.querySelectorAll('section.zone').forEach(s =>
+    s.classList.toggle('hid', !s.querySelector('article.panel:not(.hid)')));
   qinfo.textContent = `找到 ${n} 塊看板　${n} panel${n===1?'':'s'} matched`;
   noRes?.remove(); noRes = null;
   if(!n){

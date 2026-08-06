@@ -128,9 +128,6 @@ nav.zones{position:sticky;top:var(--navtop,52px);z-index:55;background:var(--bg)
 .hero .coupletEn{font-size:.95rem;color:#c9d8f0;letter-spacing:.05em;margin-top:.35rem;
   font-family:"Iowan Old Style",Palatino,Georgia,serif}
 .hero .org{margin-top:1.7rem;font-size:.83rem;color:#b3c4de;line-height:1.95}
-.hero .how{margin-top:1.6rem;display:inline-flex;flex-wrap:wrap;gap:.5rem;justify-content:center}
-.hero .how span{font-size:.78rem;background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.2);
-  padding:.4rem .85rem;border-radius:999px;color:#dbe6f8}
 
 /* ═══════════ layout ═══════════ */
 main{max-width:var(--maxw);margin:0 auto;padding:0 1rem 5rem}
@@ -389,7 +386,6 @@ footer .fl{margin-top:1rem;font-size:.77rem;color:#63789a}
   .seg button,.tgl{font-size:.75rem;padding:.4rem .6rem}
   .hero{padding:2rem .9rem 2.2rem}
   .hero .org{margin-top:1.3rem}
-  .hero .how{margin-top:1.2rem}
   main{padding:0 .75rem 4rem}
   .phead{padding:.95rem 1rem;gap:.6rem}
   .pbody{padding:.4rem 1rem 1.3rem}
@@ -404,7 +400,7 @@ footer .fl{margin-top:1rem;font-size:.77rem;color:#63789a}
 }
 
 @media print{
-  header,nav.zones,#searchbar,.hero .how,footer .fl,#lb{display:none !important}
+  header,nav.zones,#searchbar,footer .fl,#lb{display:none !important}
   body{background:#fff;color:#000;font-size:11pt;line-height:1.7}
   .pbody{display:block !important}
   article.panel{break-inside:avoid;box-shadow:none}
@@ -457,11 +453,6 @@ footer .fl{margin-top:1rem;font-size:.77rem;color:#63789a}
   <div class="coupletEn">Purifying the Land, Maturing All Beings</div>
   <div class="org">財團法人圓道文教基金會・寶嚴禪寺<br>
     Yuandao Culture and Education Foundation · Bao Yan Chan Monastery</div>
-  <div class="how">
-    <span>📖 展區看板全文，中英對照</span>
-    <span>🎙 按「解說員」看導覽要點</span>
-    <span>🌿 可切護眼・放大字級</span>
-  </div>
 </div>
 
 <main id="main"></main>
@@ -778,8 +769,8 @@ q.addEventListener('input', () => {
 if(location.search.includes('mark')){
   const T=[['.ctrls','1 上方按鈕列'],['nav.zones .zwrap','2 區域導覽列'],['#searchbar','3 搜尋列'],
     ['.hero h1','4 大標題'],['.hero .couplet','5 對句'],['.hero .org','6 單位名稱'],
-    ['.hero .how','7 三個說明方框'],['#main .zhead','8 區域標題'],
-    ['#m1 .phead','9 看板標題列'],['#m1 .gal','10 架構圖'],['footer','11 頁尾']];
+    ['#main .zhead','7 區域標題'],['#m1 .phead','8 看板標題列'],
+    ['#m1 .gal','9 架構圖'],['footer','10 頁尾']];
   addEventListener('load', () => setTimeout(() => T.forEach(([sel,n])=>{
     const el=document.querySelector(sel); if(!el) return;
     const r=el.getBoundingClientRect();

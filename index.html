@@ -774,6 +774,25 @@ q.addEventListener('input', () => {
   }
 });
 
+/* ══ ?mark＝在畫面上標號，方便隔空指位置（暫時性工具） ══ */
+if(location.search.includes('mark')){
+  const T=[['.ctrls','1 上方按鈕列'],['nav.zones .zwrap','2 區域導覽列'],['#searchbar','3 搜尋列'],
+    ['.hero h1','4 大標題'],['.hero .couplet','5 對句'],['.hero .org','6 單位名稱'],
+    ['.hero .how','7 三個說明方框'],['#main .zhead','8 區域標題'],
+    ['#m1 .phead','9 看板標題列'],['#m1 .gal','10 架構圖'],['footer','11 頁尾']];
+  addEventListener('load', () => setTimeout(() => T.forEach(([sel,n])=>{
+    const el=document.querySelector(sel); if(!el) return;
+    const r=el.getBoundingClientRect();
+    const mk=(css,txt)=>{const d=document.createElement('div');d.style.cssText=css;
+      if(txt)d.textContent=txt;document.body.appendChild(d);};
+    mk(`position:absolute;z-index:499;left:${r.left+scrollX}px;top:${r.top+scrollY}px;
+        width:${r.width}px;height:${r.height}px;border:2.5px dashed #E5352B;border-radius:8px;pointer-events:none`);
+    mk(`position:absolute;z-index:500;left:${Math.max(2,r.left+scrollX-10)}px;top:${r.top+scrollY-14}px;
+        background:#E5352B;color:#fff;font:700 14px/1 system-ui;padding:6px 10px;border-radius:999px;
+        white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.45);pointer-events:none`, n);
+  }), 400));
+}
+
 /* ══ lightbox ══ */
 const lb = document.getElementById('lb'),
       lbImg = lb.querySelector('img'),
